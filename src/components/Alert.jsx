@@ -9,6 +9,7 @@ const Alert = (props) => {
     return () => {
       clearTimeout(timerId);
     };
+    //eslint-disable-next-line
   }, [name]);
 
   return (
